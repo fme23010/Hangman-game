@@ -9,10 +9,11 @@ If not, the man will be hanged! Good luck!!!
 """
 """!!!NOTE!!! FOR THE BEST EXPERIENCE RUN THIS IN TERMINAL: pip install english-words  """
 import random
-from english_words import get_english_words_set
+
 
 # The program tests if the set exists, otherwise it uses the custom set so that it always works.
 try:
+    from english_words import get_english_words_set
     words_set = get_english_words_set(['web2'], lower=True)
     word_list = list(words_set)
     words = [word for word in word_list if len(word) >= 6]
