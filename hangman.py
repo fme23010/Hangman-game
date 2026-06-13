@@ -3,8 +3,8 @@ Hello, my name is Gregory Vasileiou and this is my final project for Code in Pla
 I hope you enjoy it!
 """
 """
-In this game you should guess the secret word. 
-You should find all letters to win.
+In this game you must guess the secret word. 
+You must find all letters to win.
 If not, the man will be hanged! Good luck!!!
 """
 """!!!NOTE!!! FOR THE BEST EXPERIENCE RUN THIS IN TERMINAL: pip install english-words  """
